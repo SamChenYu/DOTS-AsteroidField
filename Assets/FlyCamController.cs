@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 public class FlyCamController : MonoBehaviour
 {
     [Header("Settings")]
-    public float moveSpeed = 5f;
-    public float sprintMultiplier = 2f;
+    public float moveSpeed = 20f;
+    public float sprintMultiplier = 5f;
     public float lookSensitivity = 0.5f;
 
     private InputSystem_Actions inputActions;
